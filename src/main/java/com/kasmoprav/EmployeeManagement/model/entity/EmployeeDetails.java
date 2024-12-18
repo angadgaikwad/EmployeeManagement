@@ -11,8 +11,9 @@ public class EmployeeDetails {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String empId;
-    private String empFirstName;
-    private String empLastName;
-    private String empAddress;
-    private String salary;
+    private String empName;
+    private String empContact;
+    private String empGender;
+    private String empSalary;
+    private String empRole;
 }
